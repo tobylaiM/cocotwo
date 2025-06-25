@@ -21,10 +21,7 @@ const MetricsTable = ({ data }) => {
                     ...styles.thIcon, 
                     backgroundColor: 'white',
                     border: '1px solid #e5e7eb',
-                    padding: '4px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
+                    padding: '4px'
                   }}>
                     <img 
                       src={app.icon} 
@@ -32,9 +29,7 @@ const MetricsTable = ({ data }) => {
                       style={{ 
                         width: '24px', 
                         height: '24px',
-                        objectFit: 'contain',
-                        maxWidth: '24px',
-                        maxHeight: '24px'
+                        objectFit: 'contain'
                       }}
                       onError={(e) => {
                         // Fallback to emoji with original styling if image fails

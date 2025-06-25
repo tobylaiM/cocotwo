@@ -9,9 +9,10 @@ const ApplicationIcons = () => {
         <div key={index} style={styles.appItem}>
           <div style={{ 
             ...styles.appIconContainer, 
-            backgroundColor: 'white', // Change to white background for logos
+            backgroundColor: 'white',
             border: '1px solid #e5e7eb',
-            padding: '8px'
+            padding: '8px',
+            boxShadow: '0 1px 3px 0 rgba(0, 0, 0, 0.1)'
           }}>
             <img 
               src={app.icon} 
@@ -22,9 +23,10 @@ const ApplicationIcons = () => {
                 objectFit: 'contain'
               }}
               onError={(e) => {
-                // Fallback to emoji if image fails
+                // Fallback to emoji with original styling if image fails
                 e.target.style.display = 'none';
                 e.target.parentNode.style.backgroundColor = app.color;
+                e.target.parentNode.style.border = 'none';
                 e.target.parentNode.innerHTML = `<span style="color: white; font-size: 20px;">${app.emoji}</span>`;
               }}
             />

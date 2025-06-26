@@ -1,7 +1,9 @@
-IDEAS Dashboard for Government Clouds – Hackathon Prototype
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# IDEAS Dashboard for Government Clouds – Hackathon Prototype
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Made during the 2025 FHL hackathon. 
+The goal is to demonstrate the feasibility and value of integrating data from the Lynx dashboard into a lightweight, ITAR-compliant telemetry visualization tool. This prototype is intended to spark interest and secure commitment from a dedicated engineering team for full-scale development.
+If you would like to leave a feedback for this project: (https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRwvdFKTlRFFGhE5HzgHQuTFUNFA5VFk3Wks5WTBVR1hXUFJPMThPUUNTSy4u)
 
 ## Available Scripts
 

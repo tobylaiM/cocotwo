@@ -1,20 +1,13 @@
-// src/components/Dashboard.js
 import React, { useState } from 'react';
 import { Star } from 'lucide-react';
-
-// Import components
 import Header from './Header';
 import Navigation from './Navigation';
 import ApplicationIcons from './ApplicationIcons';
 import TabFilters from './TabFilters';
-
-// Import page components
 import GCCPage from './pages/GCCPage';
 import GCCHighPage from './pages/GCCHighPage';
 import DODPage from './pages/DODPage';
 import ComparePage from './pages/ComparePage';
-
-// Import styles
 import { styles } from '../styles/styles';
 
 const Dashboard = () => {
@@ -76,7 +69,6 @@ const Dashboard = () => {
         </div>
 
         <TabFilters toggleState={toggleState} setToggleState={setToggleState} />
-        <ApplicationIcons />
 
         {/* Tab Content */}
         {renderTabContent()}
